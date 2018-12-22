@@ -1,0 +1,9 @@
+{
+  "disableScroll": true,
+  "navigationBarBackgroundColor": "#2d2d2d",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "圣诞头像",
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index"
+  }
+}

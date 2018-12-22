@@ -1,0 +1,15 @@
+{
+  "disableScroll": true,
+  "navigationBarBackgroundColor": "#010101",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "头像预览",
+  "usingComponents": {
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-button": "../../dist/button/index",
+    "i-action-sheet": "../../dist/action-sheet/index"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx18a2ac992306a5a4"
+  ]
+}

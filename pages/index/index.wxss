@@ -1,0 +1,44 @@
+/* pages/index/index.wxss */
+.box{
+  width: 100%;
+  height: 100vh;
+  background: #010101;
+}
+.btnZoom{
+  position: relative;
+  width:100%;
+  height:730rpx;
+}
+.current{
+  background: transparent;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  color: #5b5b5b;
+}
+.current1{
+  background: transparent;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  color: #5b5b5b;
+}
+.current::after,.current1::after{
+  border:none;
+}
+.container{
+  width:100%;
+  height:730rpx;
+  padding-top:20rpx;
+}
+.bgPic{
+  height:730rpx;
+  width:730rpx;
+}
+.bottom{
+  width: 100%;
+  height:130rpx;
+  position:fixed;
+  bottom:0;
+  left:0;
+  background: #222222;
+  padding-top:20rpx;
+}

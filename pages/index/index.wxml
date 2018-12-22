@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<view class='box'>
+  <view class="container">
+    <image class="bgPic" wx:if="{{bgPic}}" src="{{bgPic}}"></image>
+  </view>
+  <view class="btnContainer">
+    <!-- <button  open-type='getUserInfo' bindgetuserinfo='bindgetuserinfo' class='current1'>不是当前头像？</button> -->
+    <i-button wx:if="{{user}}" open-type='getUserInfo' bindgetuserinfo='bindgetuserinfo' type="primary">使用微信头像</i-button>
+    <button wx:else data-way="avatar" bind:tap="getAvatar" class='current'>不是当前头像？</button>
+    <!-- <button data-way="camera" bind:tap="chooseImage">使用相机</button>
+    <button data-way="album" bind:tap="chooseImage">相册选择</button>
+    <button bind:tap="nextPage" disabled="{{!picChoosed}}">下一步</button> -->
+  </view>
+</view>
+<view class="bottom">
+  <i-row>
+    <i-col span="10" i-class="col-class">
+      <i-button bind:click="handleClick" type="primary">选择照片</i-button>
+    </i-col>
+    <i-col span="14" i-class="col-class">
+      <i-button bind:click="nextPage" type="success" disabled="{{!picChoosed}}">下一步</i-button>
+    </i-col>
+  </i-row>
+</view>

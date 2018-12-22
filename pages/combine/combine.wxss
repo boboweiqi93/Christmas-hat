@@ -1,0 +1,30 @@
+/* pages/combine/combine.wxss */
+.box{
+  width:100%;
+  height:100vh;
+  background: #222325;
+  padding-top:100rpx;
+}
+.bottom{
+  width: 100%;
+  height:130rpx;
+  position:fixed;
+  bottom:0;
+  left:0;
+  background: #222222;
+  padding-top:20rpx;
+}
+.zan{
+  margin: 0 auto;
+  width:300rpx;
+  margin-top: 50rpx;
+  font-size: 30rpx;
+
+
+}
+.zan::after{
+  border:none;
+}
+.zanbox{
+  width:100%;
+}

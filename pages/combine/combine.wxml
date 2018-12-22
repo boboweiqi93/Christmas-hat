@@ -1,0 +1,16 @@
+<view class='box'>
+  <canvas  class="myCanvas" canvas-id="myCanvas" style="height:300px;;width:100%;"/>
+  <view class='zanbox'>
+    <button type="primary" bindtap='zan' class='zan'>打赏作者</button>
+  </view>
+</view>
+<view class="bottom">
+  <i-row>
+    <i-col span="12" i-class="col-class">
+      <i-button type="primary" open-type="share">给好友戴</i-button>
+    </i-col>
+    <i-col span="12" i-class="col-class">
+      <i-button bind:click="savePic" type="success">保存到相册</i-button>
+    </i-col>
+  </i-row>
+</view>
