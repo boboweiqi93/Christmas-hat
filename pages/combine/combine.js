@@ -55,13 +55,10 @@ Page({
         wx.saveImageToPhotosAlbum({
           filePath: res.tempFilePath,
           success: (res) => {
-            wx.navigateTo({
-              url: '../index/index',
-              success: function(res) {},
-              fail: function(res) {},
-              complete: function(res) {},
+            wx.showModal({
+              title: 'tips',
+              content: '圣诞头像已保存到相册！快去更换微信头像吧！',
             })
-            console.log("success:" + res);
           }, 
           fail(e) {
             console.log(e.errMsg)
